@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=kanit');
+* {
+  font-family: Kanit;
+} html {
+  min-height: 100%;
+}
+
+.name-header {
+  text-align: center;
+  font-size: 55px;
+  margin: 32px 0;
+  max-height: 132px;
+} .header-div {
+  min-height: 15%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px  solid black;
+} 
+
+.top-section {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 60px 40px 0px 40px;
+} .pfp-section img {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 100%;
+  box-shadow: 1px 1px 20px black;
+} .about-me {
+  border: 1px solid black;
+  width: 500px;
+  padding: 15px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 5px black;
+} .about-me h1 {
+  font-size: 50px;
+  text-align: center;
+} .about-me p {
+  font-size: 35px;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1285px) {
+  .header-div {
+    justify-content: left;
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .top-section {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  } .pfp-section {
+    display: flex;
+    justify-content: center;
+  } .about-me-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  } 
+}
+
+@media screen and (max-width: 815px) {
+  .header-div {
+    justify-content: center;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .pfp-section img {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .pfp-section img {
+    width: 350px;
+    height: 350px;
+  } .about-me p {
+    padding: 0;
+  } .top-section {
+    margin-top: 15px;
+  }
+}

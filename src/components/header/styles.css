@@ -1,0 +1,37 @@
+header div {
+  display: flex;
+  justify-content: center;
+} header h1 {
+  margin: 10px 5px;
+  border: 1px solid black;
+  border-radius: 40px;
+  padding: 10px;
+  transition-duration: 250ms;
+  transition-delay: 100ms;
+  font-size: 35px;
+  width: fit-content;
+} header {
+  position: fixed;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  right: 0;
+  z-index: 999;
+  margin-right: 25px;
+  min-height: 132px;
+  max-height: 132px;
+  align-items: center;
+} header h1:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  transition-duration: 350ms;
+  transition-delay: 0ms;
+}
+
+@media screen and (max-width: 815px) {
+  header {
+    bottom: 0;
+    left: 0;
+  }
+}
