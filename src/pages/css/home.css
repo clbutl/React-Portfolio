@@ -5,26 +5,23 @@
   min-height: 100%;
 }
 
-.name-header {
-  text-align: center;
-  font-size: 55px;
-  margin: 32px 0;
-  max-height: 132px;
-} .header-div {
+.header-div {
   min-height: 15%;
   width: 100%;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px  solid black;
+  /* border-bottom: 1px  solid black; */
 } 
 
 .top-section {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  margin: 60px 40px 0px 40px;
+  padding: 60px 40px 60px 40px;
+  border-bottom: 1px solid black;
+  align-items: center;
 } .pfp-section img {
   width: 500px;
   height: 500px;
@@ -44,6 +41,28 @@
   font-size: 35px;
   padding: 20px;
   text-align: center;
+}
+
+.bottom-section {
+  background-color: rgb(124, 211, 218)
+} .bottom-section h1 {
+  font-size: 55px;
+  text-align: center;
+} .skillsets-div div {
+  /* border: 1px solid black; */
+  margin: 0 10px;
+} .skillsets-div {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 70px;
+} .skillsets-div p {
+  font-size: 30px;
+  padding: 20px 40px;
+  text-align: center;
+} .skillset-header {
+  margin-top: 0;
+  padding-top: 50px;
+  font-size: 500px;
 }
 
 @media screen and (max-width: 1285px) {

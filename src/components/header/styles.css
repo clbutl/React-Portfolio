@@ -1,33 +1,37 @@
 header div {
   display: flex;
   justify-content: center;
-} header h1 {
-  margin: 10px 5px;
-  border: 1px solid black;
-  border-radius: 40px;
-  padding: 10px;
-  transition-duration: 250ms;
-  transition-delay: 100ms;
-  font-size: 35px;
-  width: fit-content;
-} header {
-  position: fixed;
-  display: flex;
-  width: fit-content;
-  height: fit-content;
-  right: 0;
-  z-index: 999;
-  margin-right: 25px;
-  min-height: 132px;
-  max-height: 132px;
+} header h2 {
+  font-size: 40px;
+  text-decoration: none;
   align-items: center;
-} header h1:hover {
+  display: flex;
+  min-height: 85px;
+  margin: 0 10px 0 0;
+  padding: 0 10px;
+} header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(124, 211, 218);
+  border-bottom: 1px solid black;
+} header h2:hover {
   cursor: pointer;
-  color: white;
+  color: rgb(124, 211, 218);
   background-color: black;
   transition-duration: 350ms;
   transition-delay: 0ms;
-}
+} .header-links {
+  user-select: none;
+  color: black;
+  text-decoration: none;
+} .name-header {
+  text-align: center;
+  font-size: 65px;
+  margin: 5px 0 5px 125px;
+  max-height: 132px;
+} 
 
 @media screen and (max-width: 815px) {
   header {
