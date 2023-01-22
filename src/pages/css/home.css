@@ -46,7 +46,7 @@
 .bottom-section {
   background-color: rgb(124, 211, 218)
 } .bottom-section h1 {
-  font-size: 55px;
+  font-size: 45px;
   text-align: center;
 } .skillsets-div div {
   /* border: 1px solid black; */
@@ -56,8 +56,8 @@
   justify-content: space-around;
   padding-bottom: 70px;
 } .skillsets-div p {
-  font-size: 30px;
-  padding: 20px 40px;
+  font-size: 25px;
+  padding: 20px 55px;
   text-align: center;
 } .skillset-header {
   margin-top: 0;

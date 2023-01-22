@@ -1,0 +1,44 @@
+.each-project-div {
+  display: flex;
+  justify-content: space-around;
+} .project-image-div {
+  display: flex;
+  width: 45%;
+} .project-image-div img {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.project-info-div {
+  width: 45%;
+} .project-info-div h1 {
+  font-size: 45px;
+  text-align: center;
+  width: fit-content;
+  padding: 5px;
+  border-bottom: 1px solid black;
+} .project-name-header {
+  display: flex;
+  justify-content: center;
+} 
+
+.project-info-div p {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.project-links-section {
+  display: flex;
+  justify-content: space-around;
+} .project-links-section div {
+  width: 50%;
+  text-align: center;
+  border: 1px solid black;
+  transition-duration: 300ms;
+} .project-links-section div:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  transition-duration: 300ms;
+}
