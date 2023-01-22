@@ -73,8 +73,6 @@
   .header-div {
     justify-content: left;
     padding-left: 20px;
-  } .skillsets-div p {
-    padding: ;
   } .bottom-section div {
     margin: 0;
   }
@@ -110,6 +108,12 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+  .top-section {
+    margin: 0%;
+  }
+}
+
 @media screen and (max-width: 545px) {
   .pfp-section img {
     width: 400px;
@@ -123,7 +127,19 @@
     height: 350px;
   } .about-me p {
     padding: 0;
+    font-size: 25px;
   } .top-section {
     margin-top: 15px;
+  } .about-me-section {
+    width: 100%;
+    padding: 0;
+  } .top-section {
+    padding: 0 2px;
+  } .skillsets-div p {
+    padding: 20px 20px;
+  } .skillset-header {
+    padding-top: 25px;
+  } .skillsets-div {
+    padding-bottom: 20px;
   }
 }

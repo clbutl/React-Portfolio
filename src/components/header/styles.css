@@ -83,6 +83,7 @@ header div {
   } .header-links-div {
     flex-direction: column;
     min-width: 100%;
+    margin-top: 85px;
   } .header-links {
     text-align: center;
     display: flex;
@@ -93,6 +94,9 @@ header div {
     margin: 0;
     padding: 0;
     text-align: center;
+  } .name-header {
+    position: absolute;
+    left: 0;
   }
 
   .header-links:hover {
@@ -107,4 +111,28 @@ header div {
   } .navigation-dropdown div {
     display: flex;
   }
+}
+
+@media screen and (max-width: 665px) {
+  .name-header {
+    justify-content: left;
+  } .name-header-div {
+    float: left;
+  } 
+}
+
+@media screen and (max-width: 545px) {
+  .name-header {
+    margin-top: 12.5px;
+    font-size: 50px;
+    align-items: center;
+  } 
+}
+
+@media screen and (max-width: 435px) {
+  .name-header {
+    margin-top: 17.5px;
+    font-size: 40px;
+    align-items: center;
+  } 
 }

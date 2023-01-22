@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header>
-      <div>
+      <div className="name-header-div">
         <h1 className="name-header">Cannon Butler</h1>
       </div>
       <div className="header-links-div">
