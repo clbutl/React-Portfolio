@@ -36,15 +36,34 @@ const Home = () => {
           <div className="skillsets-div">
             <div>
               <h1>⚛️React.js</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>
+                The main goal of my recent Ohio State University Coding Boot 
+                Camp was to learn AND become comfortable with React.  I have 
+                accomplished this goal, as I understand the concepts of 
+                Object-Oriented Programming(OOP), Model-View-Controller (MVC), 
+                and Object-Relational Mapping (ORM) very well.  Understanding 
+                these programming languages greatly helps me when building a 
+                myriad of applications using React framework.
+              </p>
             </div>
             <div>
               <h1>🤝Teamwork</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>
+                I have always thrived when working in a team-oriented 
+                environment, whether it was during the many group school 
+                assignments or in my current employment at ALDI.  I truly 
+                believe great teamwork is paramount to achieving success in 
+                any project.
+              </p>
             </div>
             <div>
               <h1>🧠Troubleshooting</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>
+              I have a constant will to adapt to any given situation or 
+              problem that arises, development related, or not.  I am always 
+              eager to step out of my comfort zone to grow as an individual 
+              or learn something new.  
+              </p>
             </div>
           </div>
         </section>

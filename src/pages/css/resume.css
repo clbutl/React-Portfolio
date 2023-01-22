@@ -1,0 +1,8 @@
+main h1 {
+  font-size: 60px;
+  text-align: center;
+} .resume-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}

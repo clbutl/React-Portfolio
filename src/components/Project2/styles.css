@@ -40,4 +40,7 @@
   background-color: black;
   cursor: pointer;
   transition-duration: 300ms;
+} .project-links-section a {
+  text-decoration: none;
+  color: black;
 }

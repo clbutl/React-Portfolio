@@ -51,6 +51,8 @@
 } .skillsets-div div {
   /* border: 1px solid black; */
   margin: 0 10px;
+  min-width: 33.3%;
+  max-width: 33.3%;
 } .skillsets-div {
   display: flex;
   justify-content: space-around;

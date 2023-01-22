@@ -16,14 +16,18 @@ const Project1 = () => {
           <h1>Happy Hour Log</h1>
         </div>
         <p>
-        This application uses used Node.js, Express.js, Handlebars, Sequelize, and deployed using Heroku to run an application to view and post happy hour deals. The application allows users to register and log in to the application. Upon registration, a welcome email will be sent to the new user. Logged in users can then post and view their happy hour deals they have seen and that others have seen.
+          This application uses used Node.js, Express.js, Handlebars, Sequelize, and deployed using Heroku to run an application to view and post happy hour deals. The application allows users to register and log in to the application. Upon registration, a welcome email will be sent to the new user. Logged in users can then post and view their happy hour deals they have seen and that others have seen.
         </p>
         <section className="project-links-section">
           <div>
-            <h2>GitHub Repo</h2>
+            <a href="https://github.com/clbutl/happy-hour-log" rel='noreferrer' target='_blank'>
+              <h2>GitHub Repo</h2>
+            </a>
           </div>
           <div>
-            <h2>Deployed Site</h2>
+            <a href="https://happyhourlog.herokuapp.com/" rel='noreferrer' target='_blank'>
+              <h2>Deployed Site</h2>
+            </a>
           </div>
         </section>
       </div>

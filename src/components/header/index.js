@@ -18,8 +18,8 @@ const Header = () => {
         <Link className="header-links" to='/projects'>
           <h2>Projects</h2>
         </Link>
-        <Link className="header-links" to='/contact'>
-          <h2>Contact</h2>
+        <Link className="header-links" to='/resume'>
+          <h2>Resume</h2>
         </Link>
       </div>
     </header>

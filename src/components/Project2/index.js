@@ -17,10 +17,14 @@ const Project2 = () => {
         </p>
         <section className="project-links-section">
           <div>
-            <h2>GitHub Repo</h2>
+            <a href="https://github.com/Edna1999/planit" rel='noreferrer' target='_blank'>
+              <h2>GitHub Repo</h2>
+            </a>
           </div>
           <div>
-            <h2>Deployed Site</h2>
+            <a href="https://planit.herokuapp.com/" rel='noreferrer' target='_blank'>
+              <h2>Deployed Site</h2>
+            </a>
           </div>
         </section>
       </div>
