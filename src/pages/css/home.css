@@ -48,6 +48,8 @@
 } .bottom-section h1 {
   font-size: 45px;
   text-align: center;
+} .bottom-section div {
+  margin: 0;
 } .skillsets-div div {
   /* border: 1px solid black; */
   margin: 0 10px;
@@ -71,6 +73,10 @@
   .header-div {
     justify-content: left;
     padding-left: 20px;
+  } .skillsets-div p {
+    padding: ;
+  } .bottom-section div {
+    margin: 0;
   }
 }
 
@@ -88,6 +94,13 @@
     justify-content: center;
     margin-top: 20px;
   } 
+
+  .skillsets-div {
+    flex-direction: column;
+  } .skillsets-div div {
+    min-width: 100%;
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 815px) {

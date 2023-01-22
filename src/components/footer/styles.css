@@ -13,3 +13,14 @@ footer {
   text-decoration: none;
   color: black;
 } 
+
+@media screen and (max-width: 945px) {
+  footer {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  } .footer-links {
+    display: flex;
+    justify-content: center;
+  }
+}

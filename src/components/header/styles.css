@@ -31,11 +31,80 @@ header div {
   font-size: 65px;
   margin: 5px 0 5px 125px;
   max-height: 132px;
+} .hide-nav {
+  display: flex;
 } 
 
-@media screen and (max-width: 815px) {
+.navigation-dropdown {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  min-height: 65px;
+  margin-top: 10px;
+  padding: 0 10px;
+  transition-duration: 300ms;
+} .navigation-dropdown div {
+  display: none;
+  border: 1px solid black;
+  width: 60px;
+  height: 8px;
+  background-color: black;
+  border-radius: 10px;
+  transition-duration: 300ms;
+}
+
+#nav-dropdown-1 {
+  transform: rotate(0.125turn) translate(17px, 17px);
+  transition-duration: 300ms;
+  margin-top: -12px;
+} #nav-dropdown-2 {
+  display: none;
+  transition-duration: 300ms;
+} #nav-dropdown-3 {
+  transform: rotate(-0.125turn) translate(5px, -5px);
+  transition-duration: 300ms;
+  margin-top: -12px;
+} 
+
+@media screen and (max-width: 1180px) {
+  .name-header {
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 925px) {
   header {
-    bottom: 0;
-    left: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  } .header-links-div {
+    flex-direction: column;
+    min-width: 100%;
+  } .header-links {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    transition-duration: 300ms;
+  } .header-links h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .header-links:hover {
+    background-color: azure;
+    transition-duration: 300ms;
+  } header h2:hover {
+    cursor: pointer;
+    color: black;
+    background-color: unset;
+  } .hide-nav {
+    display: none;
+  } .navigation-dropdown div {
+    display: flex;
   }
 }
