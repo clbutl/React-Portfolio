@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header';
 import Home from './pages/Home.js'
 import Projects from './pages/Projects';
@@ -13,15 +13,15 @@ function App() {
       <Header/>
         <Routes>
           <Route
-            path='https://clbutl.github.io/React-Portfolio/'
+            path='/'
             element={<Home />}
           />
           <Route
-            path='https://clbutl.github.io/React-Portfolio/projects'
+            path='/projects'
             element={<Projects />}
           />
           <Route
-            path='https://clbutl.github.io/React-Portfolio/resume'
+            path='/resume'
             element={<Resume/>}
           />
           <Route
