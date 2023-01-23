@@ -1,7 +1,7 @@
 import React from "react";
 
 import PlanItPic from '../../assets/PlanItCoverPhoto.png'
-import './styles.css'
+import '../Project1/styles.css'
 
 const Project2 = () => {
 
@@ -29,7 +29,7 @@ const Project2 = () => {
         </section>
       </div>
       <div className="project-image-div">
-        <img className="each-project-pic" src={PlanItPic} alt='Happy Hour Log Pic'/>
+        <img className="each-project-pic" src={PlanItPic} alt='PlanIt Pic'/>
       </div>
     </div>
   )

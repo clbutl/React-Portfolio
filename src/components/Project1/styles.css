@@ -45,6 +45,41 @@
 } .project-links-section a {
   text-decoration: none;
 } .project-links-section h2 {
+  color: black;
   margin: 0;
   padding: 20px 0;
+}
+
+@media screen and (max-width: 1250px) {
+  .each-project-div h1 {
+    font-size: 35px;
+  } .each-project-div p {
+    font-size: 20px;
+  } .each-project-div h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .project-image-div {
+    width: 49%;
+  } .project-info-div {
+    width: 49%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .project-image-div {
+    width: 68%;
+  } .project-info-div {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .project-image-div {
+    display: none;
+  } .project-info-div {
+    width: 90%;
+  }
 }
