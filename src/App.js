@@ -13,15 +13,15 @@ function App() {
       <Header/>
         <Routes>
           <Route
-            path='React-Portfolio/'
+            path='https://clbutl.github.io/React-Portfolio/'
             element={<Home />}
           />
           <Route
-            path='React-Portfolio/projects'
+            path='https://clbutl.github.io/React-Portfolio/projects'
             element={<Projects />}
           />
           <Route
-            path='React-Portfolio/resume'
+            path='https://clbutl.github.io/React-Portfolio/resume'
             element={<Resume/>}
           />
           <Route
