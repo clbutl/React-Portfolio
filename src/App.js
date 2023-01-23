@@ -13,15 +13,15 @@ function App() {
       <Header/>
         <Routes>
           <Route
-            path='/'
+            path='React-Portfolio/'
             element={<Home />}
           />
           <Route
-            path='/projects'
+            path='React-Portfolio/projects'
             element={<Projects />}
           />
           <Route
-            path='/resume'
+            path='React-Portfolio/resume'
             element={<Resume/>}
           />
           <Route
