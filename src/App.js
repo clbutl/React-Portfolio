@@ -24,6 +24,9 @@ function App() {
             path='/resume'
             element={<Resume/>}
           />
+          <Route
+            element={<Home/>}
+          />
         </Routes>
         <Footer/>
       </div>
