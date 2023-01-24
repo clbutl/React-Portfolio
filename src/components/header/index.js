@@ -10,6 +10,7 @@ const Header = () => {
     changeNav(!currentNav)
   }
 
+  document.title = 'Cannon Butler Portfolio'
   return (
     <header>
       <div className="name-header-div">
