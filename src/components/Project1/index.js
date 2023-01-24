@@ -8,9 +8,6 @@ const Project1 = () => {
 
   return (
     <div className="each-project-div">
-      <div className="project-image-div">
-        <img className="each-project-pic" src={HappyHourPic} alt='Happy Hour Log Pic'/>
-      </div>
       <div className="project-info-div">
         <div className="project-name-header">
           <h1>Happy Hour Log</h1>
@@ -30,6 +27,9 @@ const Project1 = () => {
             </a>
           </div>
         </section>
+      </div>
+      <div className="project-image-div">
+        <img className="each-project-pic" src={HappyHourPic} alt='Happy Hour Log Pic'/>
       </div>
     </div>
   )
