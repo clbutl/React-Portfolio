@@ -12,7 +12,7 @@ const Resume = () => {
           My Resume
         </h1>
         <div className="resume-div">
-          <iframe title="resume" src="https://drive.google.com/file/d/1EivixeHo5O0GNDl5VQJnZ6aHZveIlyx3/preview" width="800px" height="650px" allow="autoplay"></iframe>
+          <iframe title="resume" src="https://drive.google.com/file/d/1-x5m-AuEZikZVkSDeGuBMxRykzR4WgqE/preview" width="800px" height="650px" allow="autoplay"></iframe>
         </div>
       </main>
     </div>
