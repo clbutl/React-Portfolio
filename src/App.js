@@ -25,6 +25,7 @@ function App() {
             element={<Resume/>}
           />
           <Route
+            path='/*'
             element={<Home/>}
           />
         </Routes>
