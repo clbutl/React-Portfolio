@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './styles.css'
 import LinkedIn from '../../assets/LinkedIn-image.png'
+import GitHub from '../../assets/github-image.png'
 
 const Footer = () => {
 
@@ -18,7 +19,12 @@ const Footer = () => {
         <Link className="footer-links" target='_blank' onClick={() => {
           window.open('https://www.linkedin.com/in/cannon-butler-61122b205/', '_blank')
         }}>
-          <img src={LinkedIn} alt="LinkedIn Link"/>
+          <img id="linkedin-link" src={LinkedIn} alt="LinkedIn Link"/>
+        </Link>
+        <Link className="footer-links" target='_blank' onClick={() => {
+          window.open('https://github.com/clbutl', '_blank')
+        }}>
+          <img id="github-link" src={GitHub} alt="GitHub Link"/>
         </Link>
     </footer>
   )
