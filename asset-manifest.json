@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.506b92e8.css",
-    "main.js": "/React-Portfolio/static/js/main.83f0910a.js",
+    "main.css": "/React-Portfolio/static/css/main.b88ed8cf.css",
+    "main.js": "/React-Portfolio/static/js/main.2242e27b.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/myPic2.jpg": "/React-Portfolio/static/media/myPic2.35ba4d8d75fc79a3c750.jpg",
     "static/media/sleeperAPICoverPhoto.jpg": "/React-Portfolio/static/media/sleeperAPICoverPhoto.a1e08c76968ffcba7b75.jpg",
@@ -9,12 +9,12 @@
     "static/media/PlanItCoverPhoto.png": "/React-Portfolio/static/media/PlanItCoverPhoto.bb7899a67f709f6f0706.png",
     "static/media/LinkedIn-image.png": "/React-Portfolio/static/media/LinkedIn-image.6314ff7f0053328e8e24.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.506b92e8.css.map": "/React-Portfolio/static/css/main.506b92e8.css.map",
-    "main.83f0910a.js.map": "/React-Portfolio/static/js/main.83f0910a.js.map",
+    "main.b88ed8cf.css.map": "/React-Portfolio/static/css/main.b88ed8cf.css.map",
+    "main.2242e27b.js.map": "/React-Portfolio/static/js/main.2242e27b.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.506b92e8.css",
-    "static/js/main.83f0910a.js"
+    "static/css/main.b88ed8cf.css",
+    "static/js/main.2242e27b.js"
   ]
 }
