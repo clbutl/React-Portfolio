@@ -46,7 +46,6 @@
 .bottom-section {
   background-color: rgb(124, 211, 218)
 } .bottom-section h1 {
-  font-size: 45px;
   text-align: center;
 } .bottom-section div {
   margin: 0;
@@ -66,7 +65,14 @@
 } .skillset-header {
   margin-top: 0;
   padding-top: 50px;
-  font-size: 500px;
+  border-bottom: 1px solid black;
+  width: fit-content;
+  font-size: 55px;
+} .skillset-header-div {
+  display: flex;
+  justify-content: center;
+} .skillsets-div h1 {
+  font-size: 45px;
 }
 
 @media screen and (max-width: 1285px) {

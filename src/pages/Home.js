@@ -30,9 +30,9 @@ const Home = () => {
           </div>
         </section>
         <section className="bottom-section">
-          <h1 className="skillset-header">
-            Skillset
-          </h1>
+          <div className="skillset-header-div">
+            <h1 className="skillset-header">Skillset</h1>
+          </div>
           <div className="skillsets-div">
             <div>
               <h1>⚛️React.js</h1>
@@ -40,7 +40,7 @@ const Home = () => {
                 The main goal of my recent Ohio State University Coding Boot 
                 Camp was to learn AND become comfortable with React.  I have 
                 accomplished this goal, as I understand the concepts of 
-                Object-Oriented Programming(OOP), Model-View-Controller (MVC), 
+                Object-Oriented Programming (OOP), Model-View-Controller (MVC), 
                 and Object-Relational Mapping (ORM) very well.  Understanding 
                 these programming languages greatly helps me when building a 
                 myriad of applications using React framework.
