@@ -15,9 +15,9 @@ main h1 {
   font-weight: bolder;
   position: fixed;
   right: 0;
-  bottom: 50px;
+  bottom: 25px;
 } .resume-no-load h1 {
-  font-size: 25px;
+  font-size: 22px;
   margin: 0 10px;
 } .open-resume {
   color: black;
@@ -29,4 +29,9 @@ main h1 {
   text-decoration: underline;
   color: blue;
   transition-duration: 300ms;
+}
+
+#hide-resume-link {
+  border: 1px solid black;
+  width: fit-content;
 }
