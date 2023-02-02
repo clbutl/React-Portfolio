@@ -29,8 +29,16 @@ header div {
 } .name-header {
   text-align: center;
   font-size: 65px;
-  margin: 5px 0 5px 125px;
   max-height: 132px;
+  margin: 0;
+  transition-duration: 300ms;
+} .name-head-link {
+  text-decoration: none;
+  color: black;
+  margin: 5px 0 5px 125px;
+} .name-header:hover {
+  text-shadow: 1px 1px 10px rgb(131, 131, 131);
+  transition-duration: 300ms;
 } .hide-nav {
   display: flex;
 } 

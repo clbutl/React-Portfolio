@@ -19,7 +19,9 @@ const Header = () => {
   return (
     <header>
       <div className="name-header-div">
-        <h1 className="name-header">Cannon Butler</h1>
+        <Link onClick={switchPage} className='name-head-link' to='/'>
+          <h1 className="name-header">Cannon Butler</h1>
+        </Link>
       </div>
       <div className="header-links-div">
         <Link onClick={switchPage} className={currentNav ? 'header-links hide-nav' : 'header-links'} to='/'>

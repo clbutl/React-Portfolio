@@ -31,7 +31,7 @@ const Home = () => {
         </section>
         <section className="bottom-section">
           <div className="skillset-header-div">
-            <h1 className="skillset-header">Skillset</h1>
+            <h1 className="skillset-header">Skill Set</h1>
           </div>
           <div className="skillsets-div">
             <div>
