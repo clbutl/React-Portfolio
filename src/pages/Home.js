@@ -42,7 +42,7 @@ const Home = () => {
                 accomplished this goal, as I understand the concepts of 
                 Object-Oriented Programming (OOP), Model-View-Controller (MVC), 
                 and Object-Relational Mapping (ORM) very well.  Understanding 
-                these programming languages greatly helps me when building a 
+                these programming concepts greatly helps me when building a 
                 myriad of applications using React framework.
               </p>
             </div>
