@@ -20,7 +20,7 @@ const Home = () => {
             <div className='about-me'>
               <h1>About me</h1>
               <p>
-                I am 18 years old, and 
+                I am 19 years old, and 
                 I recently graduated from the Ohio State University College of
                 Engineering's Full-Stack Web Development Program in early January
                 2023.  I'm looking for new opportunities to continue to grow my 
